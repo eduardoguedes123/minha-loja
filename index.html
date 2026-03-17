@@ -98,6 +98,34 @@ margin-top:40px;
 }
 
 </style>
+.categorias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  color: #1f3c88;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
 </head>
 
@@ -130,6 +158,35 @@ margin-top:40px;
 <h2 id="produtos">Produtos</h2>
 
 <div class="produtos">
+<h2>Categorias de Produtos</h2>
+
+<div class="categorias">
+
+  <div class="card">
+    <h3>Materiais Hidráulicos</h3>
+    <p>Tubos, conexões, registros, caixas d'água e muito mais.</p>
+    <a href="https://wa.me/5584999999999" target="_blank">Consultar no WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h3>Tintas e Acessórios</h3>
+    <p>Tintas, rolos, pincéis, lixas e tudo para pintura.</p>
+    <a href="https://wa.me/5584999999999" target="_blank">Consultar no WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h3>Materiais Elétricos</h3>
+    <p>Fios, cabos, disjuntores, tomadas e iluminação.</p>
+    <a href="https://wa.me/5584999999999" target="_blank">Consultar no WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h3>Ferramentas</h3>
+    <p>Ferramentas manuais e elétricas para sua obra.</p>
+    <a href="https://wa.me/5584999999999" target="_blank">Consultar no WhatsApp</a>
+  </div>
+
+</div>
 
 <div class="card">
 
